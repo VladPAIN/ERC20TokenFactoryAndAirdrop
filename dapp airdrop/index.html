@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Token Airdrop DApp</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src="./app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Token Factory and Airdrop DApp</h1>
+        <h2>Token Factory</h2>
+
+        <label for="amount">Token name:</label>
+        <input type="text" id="name">
+
+        <label for="amount">Token symbol:</label>
+        <input type="text" id="symbol">
+
+        <label for="amount">Total suply:</label>
+        <input type="number" id="suply">
+
+        <button onclick="createToken()">Create token</button>
+        <button onclick="getAddress()">Get address token</button>
+        <strong>
+            <p>Token address: <span id="result"> </span></p>
+        </strong>
+
+        <h2>Airdrop</h2>
+
+        <p>Send tokens on contract for airdrop</p>
+        <strong>
+            <p>Contract address: 0x7988de14c33A482b045639dfea419CF0F8951Af4</p>
+        </strong>
+
+        <label for="tokenAddress">Token address:</label>
+        <textarea id="tokenAddress"></textarea>
+
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount">
+
+        <label for="recipients">Recipients (comma separated):</label>
+        <textarea id="recipients"></textarea>
+
+        <button onclick="airdrop()">Airdrop Tokens</button>
+    </div>
+</body>
+
+</html>
