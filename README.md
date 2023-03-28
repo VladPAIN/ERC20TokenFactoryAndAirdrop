@@ -13,17 +13,21 @@ The TokenAirdrop contract can then be used to distribute those tokens to a speci
 $ git clone https://github.com/VladPAIN/ERC20TokenFactoryAndAirdrop.git
 ```
 * Install the necessary dependencies:
-$npm install
-
+```
+$ $npm install
+```
 * Compile the smart contracts:
-$truffle compile
-
+```
+$ $truffle compile
+```
 * Deploy the contracts:
-$truffle migrate
-
+```
+$ $truffle migrate
+```
 * Run the DApp:
-$npm run dev
-
+```
+$ $npm run dev
+```
 * Open your browser to http://localhost:3000/ to use the DApp.
 
 ## Usage
