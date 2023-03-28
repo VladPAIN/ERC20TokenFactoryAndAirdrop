@@ -1,12 +1,12 @@
-#ERC20 Token Factory and Airdrop
+# ERC20 Token Factory and Airdrop
 This repository contains a set of Solidity smart contracts for creating ERC20 tokens and conducting airdrops to recipients. It also includes a web3.js-based DApp to interact with the smart contracts.
 
-##Overview
+## Overview
 The ERC20TokenFactory contract allows users to create their own ERC20 tokens, with a specified name, symbol, and supply.
 
 The TokenAirdrop contract can then be used to distribute those tokens to a specified list of recipients.
 
-##Getting started
+## Getting started
 
 * Clone the repository: 
 $git clone https://github.com/VladPAIN/ERC20TokenFactoryAndAirdrop.git
@@ -25,21 +25,21 @@ $npm run dev
 
 * Open your browser to http://localhost:3000/ to use the DApp.
 
-##Usage
+## Usage
 
-###Creating a new ERC20 token
+### Creating a new ERC20 token
 1. Open the DApp at http://localhost:3000/.
 2. Enter a name, symbol, and total supply for your new token.
 3. Click the "Create Token" button.
 4. Confirm the transaction in MetaMask.
 
-###Airdropping tokens
+### Airdropping tokens
 1. Open the DApp at http://localhost:3000/.
 2. Enter the recipients and amount of tokens to be airdropped.
 3. Click the "Airdrop Tokens" button.
 4. Confirm the transaction in MetaMask.
 
-##Troubleshooting
+## Troubleshooting
 
 If you encounter any issues, please check that you have:
 
